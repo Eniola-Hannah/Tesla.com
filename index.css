@@ -1,0 +1,142 @@
+
+#hoverEffect{
+    font-size: small;
+    font-weight: 500;
+}
+#hoverEffect:hover{
+    opacity: 0.8;
+    height: 40px;
+    border-radius: 100px;
+    background-color: lightgray;
+}
+#model3{
+    background-image: url(Tesla.com/tesla-logo.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#modelY{
+    background-image: url(Tesla.com/Desktop-ModelY.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#modelS{
+    background-image: url(Tesla.com/ms-homepage-desktop.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#modelX{
+    background-image: url(Tesla.com/ModelX-Homepage-D.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#solarPanels{
+    background-image: url(Tesla.com/_25-HP-SolarPanels-D.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#solarRoof{
+    background-image: url(Tesla.com/HP-SR-Design-D.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+#accessories{
+    background-image: url(Tesla.com/Desktop-Accessories.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+button{
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    border: 0px;
+}
+#h1_model{
+    padding-top: 110px;
+    text-align: center;
+}
+#model{
+    margin-left: 550px;
+}
+#d-column{
+    padding-top: 150px;
+}
+#dark_model{
+    background-color: black;
+    opacity: 0.8;
+    margin-left: 350px;
+    margin-top: 100px;
+    border-radius: 90px;
+}
+#light_model{
+    color: rgb(128, 119, 119);
+    border-radius: 90px;
+    margin-left: 230px;
+    margin-top: 100px;
+}
+#dark_accessories{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    top: 500px;
+    left: 550px;
+    border-radius: 90px;
+}
+@media only screen  and (max-width: 800px){
+    button{
+        width: 170px;
+        height: 30px;
+    }
+    #model{
+        font-size: small;
+        margin-left: 90px;
+    }
+    #d-column{
+        padding-top: 0px;
+    }
+    #dark_model{
+        font-size: smaller;
+        margin-top: 350px;
+        margin-right: 0px;
+        margin-left: 85px;
+    }
+    #light_model{
+        font-size: smaller;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 85px;
+    }
+    #dark_accessories{
+        font-size: smaller;
+        top: 450px;
+        left: 100px;
+    }
+}
